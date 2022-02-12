@@ -1,0 +1,38 @@
+body {
+  background-color: var(--default-color);
+}
+
+.home-hero {
+  cursor: pointer;
+}
+
+.home-product-category:hover {
+  transform: scale(1.09);
+  transition: all 0.3s ease-in-out;
+}
+
+.home-product-category-overlay {
+  display: none;
+  opacity: 0;
+  font-size: var(--font-s-lg);
+  font-weight: var(--font-w-semibold);
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.home-product-category:hover .home-product-category-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.7;
+  background: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
