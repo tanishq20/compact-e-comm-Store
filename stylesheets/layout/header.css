@@ -1,0 +1,38 @@
+.header-container {
+  background-color: var(--secondary-400);
+  padding: 1rem 3.2rem;
+}
+
+.header-logo {
+  font-weight: var(--font-w-medium);
+}
+
+.header-brand:hover {
+  color: var(--text-color);
+}
+
+.header-nav {
+  padding: 1rem;
+}
+
+.header-list {
+  gap: 3rem;
+}
+
+.header-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.badge {
+  cursor: pointer;
+}
+
+.header-item-text {
+  font-size: var(--font-s-base);
+  font-weight: var(--font-w-medium);
+  color: var(--text-color);
+}
