@@ -1,0 +1,12 @@
+.products-page {
+  display: flex;
+  max-width: 100%;
+}
+
+.products-wrapper {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  padding: 2rem 2rem 0 2rem;
+  height: 100%;
+}

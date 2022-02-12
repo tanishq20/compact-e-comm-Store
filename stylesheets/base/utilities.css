@@ -48,18 +48,28 @@
   gap: 2rem;
 }
 
-/* Replace class */
-
-.card-badge-item {
-  color: var(--white);
+/* Pagination utility class */
+.pagination-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 2rem 0 0 2rem;
 }
 
-.ecomm-card-horz {
-  max-width: 50rem;
+.pagination-nav-item {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-s-lg);
+  font-weight: var(--font-w-semibold);
+  color: var(--text-color);
 }
-.ecomm-card-horz .ecomm-prod-image {
-  max-width: 20%;
+
+.pagination-nav-item:hover {
+  color: var(--active-color);
 }
-.ecomm-card-horz .card-badge-item {
-  top: unset;
+
+.pagination-nav-icon {
+  font-size: var(--font-s-base);
+  color: var(--grey);
 }
