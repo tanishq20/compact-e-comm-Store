@@ -48,6 +48,11 @@
   gap: 2rem;
 }
 
+.disabled-btn {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
 /* Pagination utility class */
 .pagination-nav {
   display: flex;
