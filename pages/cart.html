@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact Store | Cart</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://compact-ui.netlify.app/stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header-brand">
+            <img src="../assets/logo/logo.png" alt="logo">
+            <a href="../index.html" class="header-logo">Compact Store</a>
+        </div>
+        <div class="header-src">
+            <input type="text" name="search" placeholder="What are you looking for?" class="header-src-input">
+            <button type="submit" class="header-src-btn"><i class="fa fa-search"></i></button>
+        </div>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <a href="#" class="header-item">
+                    <button class="btn btn-primary">Logout</button>
+                </a>
+                <a href="./wishlist.html" class="header-item">
+                    <p class="badge position-relative">
+                        <i class="fa fa-solid fa-heart badge-icon"></i>
+                        <span class="badge-content position-absolute sm-badge">12</span>
+                    </p>
+                    <span class="header-item-text">Wishlist</span>
+                </a>
+                <a href="./" class="header-item">
+                    <p class="badge position-relative">
+                        <i class="fas fa-shopping-cart badge-icon"></i>
+                        <span class="badge-content position-absolute sm-badge">1</span>
+                    </p>
+                    <span class="header-item-text">Cart</span>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="products-page">
+            <div class="products-wrapper">
+                <div class="products-showcase">
+                    <ul class="pagination-nav">
+                        <li class="pagination-nav-item"><a href="../index.html">Home</a></li>
+                        <i class="fa fa-solid fa-angle-right pagination-nav-icon"></i>
+                        <li class="pagination-nav-item"><a href="./cart.html">Cart</a></li>
+                    </ul>
+                    <div class="products-showcase-heading">
+                        <h2 class="products-showcase-head">My Cart <span>(1 item)</span></h2>
+                    </div>
+                    <div class="products-section-change"></div>
+
+                    <div class="cart-wrapper">
+                        <div class="cart-product-wrapper">
+                            <div class="ecomm-card-horz rounded-5" id="ecommCardOne">
+                                <button class="trash-btn"><i class="fa fa-solid fa-trash trash-btn-icon"></i></button>
+                                <div class="card-content rounded-5">
+                                    <img src="../assets/products/mobiles/img-4.jpeg" alt="camera_image"
+                                        class="ecomm-prod-image">
+                                    <div class="ecomm-card-body">
+                                        <div class="card-header rounded-5">
+                                            <h2 class="card-subhead">realme 8 (Cyber Black, 128 GB)</h2>
+                                            <span class="card-header-tag">75,193 Ratings & 7,285 Reviews</span>
+                                            <div class="ecomm-rating-badge">
+                                                <div class="rating-badge">
+                                                    <span class="rating-badge-text">4.3</span>
+                                                    <i class="rating-badge-icon fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-item-price">
+                                            <span class="card-item-curr-price">₹15,999</span>
+                                            <span class="card-item-disc-price">₹16,999</span>
+                                            <span class="card-item-disc-per">5% off</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-secondary-outline">Move To Wishlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ecomm-card-horz rounded-5" id="ecommCardOne">
+                                <button class="trash-btn"><i class="fa fa-solid fa-trash trash-btn-icon"></i></button>
+                                <div class="card-content rounded-5">
+                                    <img src="../assets/products/mobiles/img-4.jpeg" alt="camera_image"
+                                        class="ecomm-prod-image">
+                                    <div class="ecomm-card-body">
+                                        <div class="card-header rounded-5">
+                                            <h2 class="card-subhead">realme 8 (Cyber Black, 128 GB)</h2>
+                                            <span class="card-header-tag">75,193 Ratings & 7,285 Reviews</span>
+                                            <div class="ecomm-rating-badge">
+                                                <div class="rating-badge">
+                                                    <span class="rating-badge-text">4.3</span>
+                                                    <i class="rating-badge-icon fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-item-price">
+                                            <span class="card-item-curr-price">₹15,999</span>
+                                            <span class="card-item-disc-price">₹16,999</span>
+                                            <span class="card-item-disc-per">5% off</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-secondary-outline">Move To Wishlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ecomm-card-horz rounded-5" id="ecommCardOne">
+                                <button class="trash-btn"><i class="fa fa-solid fa-trash trash-btn-icon"></i></button>
+                                <div class="card-content rounded-5">
+                                    <img src="../assets/products/mobiles/img-4.jpeg" alt="camera_image"
+                                        class="ecomm-prod-image">
+                                    <div class="ecomm-card-body">
+                                        <div class="card-header rounded-5">
+                                            <h2 class="card-subhead">realme 8 (Cyber Black, 128 GB)</h2>
+                                            <span class="card-header-tag">75,193 Ratings & 7,285 Reviews</span>
+                                            <div class="ecomm-rating-badge">
+                                                <div class="rating-badge">
+                                                    <span class="rating-badge-text">4.3</span>
+                                                    <i class="rating-badge-icon fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-item-price">
+                                            <span class="card-item-curr-price">₹15,999</span>
+                                            <span class="card-item-disc-price">₹16,999</span>
+                                            <span class="card-item-disc-per">5% off</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-secondary-outline">Move To Wishlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ecomm-card-horz rounded-5" id="ecommCardOne">
+                                <button class="trash-btn"><i class="fa fa-solid fa-trash trash-btn-icon"></i></button>
+                                <div class="card-content rounded-5">
+                                    <img src="../assets/products/mobiles/img-4.jpeg" alt="camera_image"
+                                        class="ecomm-prod-image">
+                                    <div class="ecomm-card-body">
+                                        <div class="card-header rounded-5">
+                                            <h2 class="card-subhead">realme 8 (Cyber Black, 128 GB)</h2>
+                                            <span class="card-header-tag">75,193 Ratings & 7,285 Reviews</span>
+                                            <div class="ecomm-rating-badge">
+                                                <div class="rating-badge">
+                                                    <span class="rating-badge-text">4.3</span>
+                                                    <i class="rating-badge-icon fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-item-price">
+                                            <span class="card-item-curr-price">₹15,999</span>
+                                            <span class="card-item-disc-price">₹16,999</span>
+                                            <span class="card-item-disc-per">5% off</span>
+                                        </div>
+                                        <div class="card-footer">
+                                            <button class="btn btn-secondary-outline">Move To Wishlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart-price-wrapper">
+                            <div class="products-section-change"></div>
+                            <div class="cart-price-details-wrapper rounded-5">
+                                <h4 class="cart-price-heading">PRICE DETAILS: (1 items)</h4>
+                                <div class="products-section-change"></div>
+                                <div class="cart-item-details">
+                                    <p class="cart-item-desc">Price</p>
+                                    <p class="cart-item-price">₹15,999
+                                    </p>
+                                </div>
+                                <div class="cart-item-details">
+                                    <p class="cart-item-desc">Discount</p>
+                                    <p class="cart-item-price cart-item-price-disc">-₹1,000
+                                    </p>
+                                </div>
+                                <div class="cart-item-details">
+                                    <p class="cart-item-desc">Delivery Charges</p>
+                                    <p class="cart-item-price cart-item-price-disc">FREE</p>
+                                </div>
+                                <div class="products-section-change"></div>
+                                <div class="cart-item-details">
+                                    <p class="cart-item-total-amount-desc">TOTAL AMOUNT</p>
+                                    <p class="cart-item-total-price">₹15,999</p>
+                                </div>
+                                <div class="products-section-change"></div>
+                                <p class="cart-save-desc">You will save ₹1,000 on this order</p>
+                                <button class="btn btn-primary w-full">PLACE ORDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-head">Made with &#10084;&#65039; By <a href="#" target="_blank"
+                class="footer-head-link">Tanishq Kumar</a> | &copy; 2022</div>
+        <div class="social-buttons">
+            <a href="https://github.com/tanishq20" target="_blank" class="social-icon github-icon">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/" class="social-icon linkedin-icon"
+                target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/tanishqkumar_20" target="_blank" class="social-icon twitter-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
