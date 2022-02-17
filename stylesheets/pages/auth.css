@@ -1,5 +1,4 @@
 .auth-wrapper {
-  width: 100%;
   max-width: 50rem;
   margin: 2rem auto;
   background-color: var(--default-hover);
@@ -8,8 +7,6 @@
 }
 
 .auth-body {
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
 }
 
@@ -21,8 +18,6 @@
 }
 
 .form-container {
-  display: flex;
-  flex-direction: column;
   gap: 1.5rem;
 }
 
@@ -32,12 +27,6 @@
 
 .input-field:focus {
   border: 3px solid var(--primary-color);
-}
-
-.auth-form-subsection {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .auth-form-link {
