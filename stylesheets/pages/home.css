@@ -1,5 +1,12 @@
+:root {
+  --success-300: #3cff00;
+}
+
 body {
   background-color: var(--default-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .home-hero {
