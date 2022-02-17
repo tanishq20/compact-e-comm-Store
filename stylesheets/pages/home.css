@@ -10,7 +10,38 @@ body {
 }
 
 .home-hero {
-  cursor: pointer;
+  position: relative;
+}
+
+.hero-img {
+  opacity: 0.5;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-content .btn {
+  font-size: var(--font-s-lg);
+}
+
+.hero-head {
+  text-align: center;
+  font-size: var(--font-s-2xl);
+  font-weight: var(--font-w-semibold);
+  color: var(--white);
+}
+
+.home-product-category {
+  background-color: var(--white);
 }
 
 .home-product-category:hover {
@@ -42,4 +73,14 @@ body {
   color: var(--white);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-content .btn {
+    font-size: var(--font-s-base);
+  }
+  .hero-head {
+    font-size: var(--font-s-base);
+    font-weight: var(--font-w-medium);
+  }
 }
