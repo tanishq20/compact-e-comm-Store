@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compact Store | Signup</title>
+    <script src="https://kit.fontawesome.com/4f4010c8fe.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../assets/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://compact-ui.netlify.app/stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <div class="header-brand">
+            <img src="../assets/logo/logo.png" alt="logo">
+            <a href="../index.html" class="header-logo">Compact Store</a>
+        </div>
+        <div class="header-src">
+            <input type="text" name="search" placeholder="What are you looking for?" class="header-src-input">
+            <button type="submit" class="header-src-btn"><i class="fa fa-search"></i></button>
+        </div>
+        <nav class="header-nav">
+            <ul class="header-list">
+                <a href="./login.html" class="header-item">
+                    <button class="btn btn-primary">Login</button>
+                </a>
+                <a href="./wishlist.html" class="header-item">
+                    <p class="badge position-relative">
+                        <i class="fa fa-solid fa-heart badge-icon"></i>
+                        <span class="badge-content position-absolute sm-badge">12</span>
+                    </p>
+                    <span class="header-item-text">Wishlist</span>
+                </a>
+                <a href="./" class="header-item">
+                    <p class="badge position-relative">
+                        <i class="fas fa-shopping-cart badge-icon"></i>
+                        <span class="badge-content position-absolute sm-badge">1</span>
+                    </p>
+                    <span class="header-item-text">Cart</span>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="auth-wrapper rounded-5">
+            <div class="auth-body">
+                <div class="auth-head">
+                    Sign-Up
+                </div>
+                <div class="form-container">
+                    <div class="input-container">
+                        <label for="name" class="input-label">Full Name <span class="required-mark">*</span></label>
+                        <input type="text" id="name" class="input-field" placeholder="XYZ" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="email" class="input-label">Email Address <span
+                                class="required-mark">*</span></label>
+                        <input type="email" id="email" class="input-field" placeholder="xyz@example.com" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="password" class="input-label">Password <span class="required-mark">*</span></label>
+                        <input type="password" for="password" class="input-field" required>
+                    </div>
+                    <div class="input-container">
+                        <label for="conf-password" class="input-label">Confirm Password <span
+                                class="required-mark">*</span></label>
+                        <input type="password" for="conf-password" class="input-field" required>
+                    </div>
+                    <div class="auth-form-subsection">
+                        <div class="input-selector">
+                            <input type="checkbox" name="filter" id="" class="input-selector-field" id="checkbox-1">
+                            <label for="checkbox-1" class="input-selector-label">I accept all Terms & Conditions <span
+                                    class="required-mark">*</span></label>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary w-full">Create New Account</button>
+                    <p class="auth-form-ask">Already have an account? <a href="./login.html"
+                            class="auth-form-ask-link">Login Here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-head">Made with &#10084;&#65039; By <a href="#" target="_blank"
+                class="footer-head-link">Tanishq Kumar</a> | &copy; 2022</div>
+        <div class="social-buttons">
+            <a href="https://github.com/tanishq20" target="_blank" class="social-icon github-icon">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/" class="social-icon linkedin-icon"
+                target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/tanishqkumar_20" target="_blank" class="social-icon twitter-icon">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
