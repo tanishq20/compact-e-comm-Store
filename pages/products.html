@@ -12,28 +12,29 @@
 </head>
 
 <body>
-    <header class="header-container">
+    <header class="header-container justify-content-between">
         <div class="header-brand">
             <img src="../assets/logo/logo.png" alt="logo">
             <a href="../index.html" class="header-logo">Compact Store</a>
         </div>
-        <div class="header-src">
+        <div class="header-src d-flex">
             <input type="text" name="search" placeholder="What are you looking for?" class="header-src-input">
-            <button type="submit" class="header-src-btn"><i class="fa fa-search"></i></button>
+            <button type="submit" class="header-src-btn d-flex justify-content-center align-items-center"><i
+                    class="fa fa-search"></i></button>
         </div>
         <nav class="header-nav">
             <ul class="header-list">
-                <a href="./login.html" class="header-item">
+                <a href="./login.html" class="header-item d-flex flex-col align-items-center justify-content-center">
                     <button class="btn btn-primary">Login</button>
                 </a>
-                <a href="./wishlist.html" class="header-item">
+                <a href="./wishlist.html" class="header-item d-flex flex-col align-items-center justify-content-center">
                     <p class="badge position-relative">
                         <i class="fa fa-solid fa-heart badge-icon"></i>
                         <span class="badge-content position-absolute sm-badge">12</span>
                     </p>
                     <span class="header-item-text">Wishlist</span>
                 </a>
-                <a href="./cart.html" class="header-item">
+                <a href="./cart.html" class="header-item d-flex flex-col align-items-center justify-content-center">
                     <p class="badge position-relative">
                         <i class="fas fa-shopping-cart badge-icon"></i>
                         <span class="badge-content position-absolute sm-badge">1</span>
@@ -45,21 +46,21 @@
     </header>
 
     <main>
-        <div class="products-page">
+        <div class="products-page d-flex">
             <div class="filter-wrapper">
                 <div class="filter-showcase">
-                    <div class="filter-heading">
+                    <div class="filter-heading d-flex justify-content-between">
                         <p class="filter-heading-left">Filters</p>
                         <a href="#" class="filter-heading-right">Clear All</a>
                     </div>
                     <div class="products-section-change"></div>
-                    <div class="filter-content">
+                    <div class="filter-content overflow-y-auto">
                         <div class="filter-subcontent">
                             <div class="filter-subcontent-heading">
                                 Price
                             </div>
                             <div class="filter-subcontent-body">
-                                <div class="filter-price">
+                                <div class="filter-price d-flex align-items-center justify-content-between">
                                     <div class="price-item">₹5000</div>
                                     <div class="price-item">₹40000</div>
                                     <div class="price-item">₹80000</div>
@@ -75,7 +76,7 @@
                                 Category
                             </div>
                             <div class="filter-subcontent-body">
-                                <div class="filter-category">
+                                <div class="filter-category d-flex flex-col">
                                     <div class="input-selector">
                                         <input type="checkbox" name="category" id="laptop-checkbox"
                                             class="input-selector-field">
@@ -105,7 +106,7 @@
                                 Rating
                             </div>
                             <div class="filter-subcontent-body">
-                                <div class="filter-rating">
+                                <div class="filter-rating d-flex flex-col">
                                     <div class="input-selector">
                                         <input type="radio" name="rating" id="four-star-radio"
                                             class="input-selector-field">
@@ -137,7 +138,7 @@
                                 Sort By
                             </div>
                             <div class="filter-subcontent-body">
-                                <div class="filter-sorting">
+                                <div class="filter-sorting d-flex flex-col">
                                     <div class="input-selector">
                                         <input type="radio" name="sorting" id="low-to-high-radio"
                                             class="input-selector-field">
@@ -159,7 +160,7 @@
                                 Availability
                             </div>
                             <div class="filter-subcontent-body">
-                                <div class="filter-availability">
+                                <div class="filter-availability d-flex flex-col">
                                     <div class="input-selector">
                                         <input type="checkbox" name="filter" id="" class="input-selector-field"
                                             id="availability-checkbox" checked>
@@ -174,16 +175,18 @@
             </div>
             <div class="products-wrapper">
                 <div class="products-showcase">
-                    <ul class="pagination-nav">
-                        <li class="pagination-nav-item"><a href="../index.html">Home</a></li>
+                    <ul class="pagination-nav d-flex align-items-center">
+                        <li class="pagination-nav-item d-flex align-items-center"><a href="../index.html">Home</a></li>
                         <i class="fa fa-solid fa-angle-right pagination-nav-icon"></i>
-                        <li class="pagination-nav-item"><a href="./product.html">All Products</a></li>
+                        <li class="pagination-nav-item d-flex align-items-center"><a href="./product.html">All
+                                Products</a></li>
                     </ul>
-                    <div class="products-showcase-heading">
+                    <div class="products-showcase-heading d-flex justify-content-between align-items-center flex-wrap">
                         <h2 class="products-showcase-head">Showing All Products</h2>
                     </div>
                     <div class="products-section-change"></div>
-                    <div class="products-showcase-items">
+                    <div
+                        class="products-showcase-items w-full d-flex justify-content-center align-items-center flex-wrap">
                         <div class="ecomm-card rounded-5">
                             <button class="wishlist-btn"><i class="fas fa-heart wishlist-btn-icon"></i></button>
                             <div class="card-content rounded-5">
@@ -778,18 +781,20 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="d-flex flex-col justify-content-center align-items-center">
         <div class="footer-head">Made with &#10084;&#65039; By <a href="#" target="_blank"
                 class="footer-head-link">Tanishq Kumar</a> | &copy; 2022</div>
-        <div class="social-buttons">
-            <a href="https://github.com/tanishq20" target="_blank" class="social-icon github-icon">
+        <div class="social-buttons d-flex align-items-center flex-wrap">
+            <a href="https://github.com/tanishq20" target="_blank"
+                class="social-icon d-flex justify-content-center align-items-center github-icon">
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/" class="social-icon linkedin-icon"
-                target="_blank">
+            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/"
+                class="social-icon d-flex justify-content-center align-items-center linkedin-icon" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="https://twitter.com/tanishqkumar_20" target="_blank" class="social-icon twitter-icon">
+            <a href="https://twitter.com/tanishqkumar_20" target="_blank"
+                class="social-icon d-flex justify-content-center align-items-center twitter-icon">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
         </div>

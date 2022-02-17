@@ -1,7 +1,5 @@
 /* Products utility class */
 .products-container {
-  display: flex;
-  flex-direction: column;
   padding: 2rem;
   gap: 2rem;
 }
@@ -13,10 +11,6 @@
 }
 
 .products-showcase-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   padding: 1rem 2rem;
 }
 
@@ -39,11 +33,6 @@
 }
 
 .products-showcase-items {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
   padding: 2rem;
   gap: 2rem;
 }
@@ -55,16 +44,12 @@
 
 /* Pagination utility class */
 .pagination-nav {
-  display: flex;
-  align-items: center;
   gap: 8px;
   list-style: none;
   padding: 2rem 0 0 2rem;
 }
 
 .pagination-nav-item {
-  display: flex;
-  align-items: center;
   font-size: var(--font-s-lg);
   font-weight: var(--font-w-semibold);
   color: var(--text-color);

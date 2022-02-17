@@ -12,28 +12,29 @@
 </head>
 
 <body>
-    <header class="header-container">
+    <header class="header-container justify-content-between">
         <div class="header-brand">
             <img src="../assets/logo/logo.png" alt="logo">
             <a href="../index.html" class="header-logo">Compact Store</a>
         </div>
-        <div class="header-src">
+        <div class="header-src d-flex">
             <input type="text" name="search" placeholder="What are you looking for?" class="header-src-input">
-            <button type="submit" class="header-src-btn"><i class="fa fa-search"></i></button>
+            <button type="submit" class="header-src-btn d-flex justify-content-center align-items-center"><i
+                    class="fa fa-search"></i></button>
         </div>
         <nav class="header-nav">
             <ul class="header-list">
-                <a href="./login.html" class="header-item">
+                <a href="./login.html" class="header-item d-flex flex-col align-items-center justify-content-center">
                     <button class="btn btn-primary">Login</button>
                 </a>
-                <a href="./wishlist.html" class="header-item">
+                <a href="./wishlist.html" class="header-item d-flex flex-col align-items-center justify-content-center">
                     <p class="badge position-relative">
                         <i class="fa fa-solid fa-heart badge-icon"></i>
                         <span class="badge-content position-absolute sm-badge">12</span>
                     </p>
                     <span class="header-item-text">Wishlist</span>
                 </a>
-                <a href="./cart.html" class="header-item">
+                <a href="./cart.html" class="header-item d-flex flex-col align-items-center justify-content-center">
                     <p class="badge position-relative">
                         <i class="fas fa-shopping-cart badge-icon"></i>
                         <span class="badge-content position-absolute sm-badge">1</span>
@@ -45,12 +46,12 @@
     </header>
 
     <main>
-        <div class="auth-wrapper rounded-5">
-            <div class="auth-body">
+        <div class="auth-wrapper w-full rounded-5">
+            <div class="auth-body d-flex flex-col">
                 <div class="auth-head">
                     Sign-Up
                 </div>
-                <div class="form-container">
+                <div class="form-container d-flex flex-col">
                     <div class="input-container">
                         <label for="name" class="input-label">Full Name <span class="required-mark">*</span></label>
                         <input type="text" id="name" class="input-field" placeholder="XYZ" required>
@@ -69,7 +70,7 @@
                                 class="required-mark">*</span></label>
                         <input type="password" for="conf-password" class="input-field" required>
                     </div>
-                    <div class="auth-form-subsection">
+                    <div class="auth-form-subsection d-flex align-items-center justify-content-between">
                         <div class="input-selector">
                             <input type="checkbox" name="filter" id="" class="input-selector-field" id="checkbox-1">
                             <label for="checkbox-1" class="input-selector-label">I accept all Terms & Conditions <span
@@ -85,18 +86,20 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="d-flex flex-col justify-content-center align-items-center">
         <div class="footer-head">Made with &#10084;&#65039; By <a href="#" target="_blank"
                 class="footer-head-link">Tanishq Kumar</a> | &copy; 2022</div>
-        <div class="social-buttons">
-            <a href="https://github.com/tanishq20" target="_blank" class="social-icon github-icon">
+        <div class="social-buttons d-flex align-items-center flex-wrap">
+            <a href="https://github.com/tanishq20" target="_blank"
+                class="social-icon d-flex justify-content-center align-items-center github-icon">
                 <i class="fa fa-github" aria-hidden="true"></i>
             </a>
-            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/" class="social-icon linkedin-icon"
-                target="_blank">
+            <a href="https://www.linkedin.com/in/tanishq-kumar-b03a52194/"
+                class="social-icon d-flex justify-content-center align-items-center linkedin-icon" target="_blank">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="https://twitter.com/tanishqkumar_20" target="_blank" class="social-icon twitter-icon">
+            <a href="https://twitter.com/tanishqkumar_20" target="_blank"
+                class="social-icon d-flex justify-content-center align-items-center twitter-icon">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a>
         </div>

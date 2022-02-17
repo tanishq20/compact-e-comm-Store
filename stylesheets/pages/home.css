@@ -1,16 +1,5 @@
-:root {
-  --success-300: #3cff00;
-}
-
 body {
   background-color: var(--default-color);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.home-hero {
-  position: relative;
 }
 
 .hero-img {
@@ -18,14 +7,9 @@ body {
 }
 
 .hero-content {
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 2rem;
 }
 
@@ -50,7 +34,6 @@ body {
 }
 
 .home-product-category-overlay {
-  display: none;
   opacity: 0;
   font-size: var(--font-s-lg);
   font-weight: var(--font-w-semibold);
