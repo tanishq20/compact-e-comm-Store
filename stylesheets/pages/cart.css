@@ -74,6 +74,35 @@
   color: var(--danger-700);
 }
 
+.card-qty {
+  padding: 1.25rem 1.25rem 0 1.25rem;
+  font-size: var(--font-s-lg);
+  font-weight: var(--font-w-semibold);
+  gap: 1rem;
+  color: var(--default-color);
+}
+
+.card-qty-item {
+  color: var(--black);
+  font-size: var(--font-s-xl);
+  gap: 1.5rem;
+}
+
+.card-qty-btn {
+  font-size: var(--font-s-lg);
+  font-weight: var(--font-w-bold);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.card-qty-btn:hover {
+  background-color: var(--primary-hover);
+  transition: all 0.3s ease-in-out;
+}
+
 @media only screen and (max-width: 992px) {
   .cart-product-wrapper,
   .cart-price-wrapper {
